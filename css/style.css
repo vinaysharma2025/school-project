@@ -1,0 +1,838 @@
+*{margin: 0; padding: 0; text-decoration: none; list-style: none; font-family: Arial, Helvetica, sans-serif;}
+/* .container{width: 1140px; margin: auto;} */
+/* .d-flex{display: flex; justify-content: space-between;} */
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header2   {display: flex; justify-content: space-between;}
+.header1{padding: 20px 0px; align-items: center; display: flex; justify-content: space-between;}
+.header{background: black;}
+.followh1 h4{color: white;}
+.Follow{position: relative;}
+.follow9a{margin-left: 20px; display: flex; width: 50%; position: absolute;  top: 3px; left: 118px;}
+.follow9a a{color: white; }
+.Follow9:hover  { transform: rotate(360deg) scale(1.5);  display: inline-block; }
+.Follow9   {transition: 0.5s; margin-right: 20px; }
+.Follow9:hover i{color: red;}
+.Follow9 i{transition: 1s;}
+.header4{margin-left: 300px;}
+.login a{color: black; font-size: 20px; text-decoration: none; text-shadow: 1px 1px 1px  white, 1px 1px 3px  black   ;}
+.login a:hover{ color: red;}
+.login a{ transition: 0.3s;}
+.header4 a{ color: white;  text-decoration: none;  transition: 0.3s;}
+.header4 a:hover{ color: red;}
+.header4 i{color: white; margin-right: 20px;}
+
+
+/*_______________ section-2_________________ */
+/*_______________ section-2_________________ */
+
+
+/* .bg{
+   background: url(../Images/school-1.jpg) no-repeat;background-size: 100% auto; height: 500px;
+}
+
+.bg-4{
+    background: url(../Images/school-2.jpg) no-repeat;background-size: auto 100%; height: 500px;
+ } */
+
+
+
+/*_______________ section-3_________________ */
+/*_______________ section-3_________________ */
+
+ .bg-2{
+    background: url(../Images/transparent-back-2.webp); background-size: 100% 100%; height: 823px;
+}
+
+.wel h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: inherit;
+}
+
+.wel h2{
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 62px;
+    font-weight: bold;
+    margin-left: -4px;
+    text-transform: uppercase;
+}
+.wel p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.wel-2 p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.wel-2 p span{
+    font-weight: 600;
+}
+
+.COURSES img{
+    margin: 0px;
+    padding: 0px;
+    width: 98%;
+    height: 440px;
+}
+.COURSES-2{
+    position: relative;
+}
+.COURSES-2 a{
+    color: #81898c97;
+    font-size: 180px;
+    position: absolute;
+    top: 92px;
+    left: 1.3em;
+}
+
+.slide-2{
+    width:100%;
+    background: rgb(130, 181, 63);
+    clear: both;
+    color: #fff;
+}
+.slide-2 img{
+    padding-top: 0em;
+    width: 100%;
+    height: 270px;
+} 
+
+.ide{
+   padding-left: 42px !important;
+}
+
+.gellry h2{
+    font-size: 56px;
+    font-weight: 600;
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #ff0;
+    margin: 10px 0px 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.box .img-box{
+    position: relative;
+    overflow: hidden;
+}
+
+.box .img-box img{
+    width: 100%;
+    height: 300px;
+    transition: transform 2s;
+}
+
+.box:hover .img-box img{
+     transform: scale(2,2);
+}
+
+.box .details{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    background: rgba(0, 0, 0, .8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+
+.box:hover .details{
+    transform: scaleY(1);
+}
+
+.box .details .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+.box .details .content h2{
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+    color: #ff0;
+}
+
+.box .details .content p{
+    padding: 0px;
+    margin: 10px 0 0;
+}
+.pur{
+    width: 45%;
+}
+.pur-2{
+    margin-left: 50px;
+}
+
+.box-2{
+    overflow: hidden;
+}
+.box-2 .img-box iframe{
+    width: 100%;
+    height: 300px;
+    transition: transform 2s;
+}
+/* 
+.box-2:hover .img-box iframe{
+     transform: scale(2,2);
+} */
+
+
+
+.bg-5{
+    background: url(../Images/choice-bg.jpg);background-size: 100% 100%; height: 600px;
+}
+
+
+.schoo{
+    width: 100%;
+}
+.schoo h4{
+    margin-bottom: 20px;
+}
+
+.schoo p {
+    width: 100%;
+    color: #000;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.schoo button{
+    background: #ee3131;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 36px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 18px 38px;
+    color: #fff;
+    transition: 0.5s;
+}
+.schoo button:hover{
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+background: #000;
+    color: #fff;
+}
+.chil{overflow: hidden;}
+.chil img{
+    width: 100%;
+    transition: 1s;
+}
+
+.chil img:hover{
+    transform: scale(2,2);
+}
+
+.team-div-main{
+    width: 100%;
+	/* width: 260px; 
+	height: 960px;*/
+	height: auto;
+	position: relative;
+	overflow: hidden;
+}
+.team-img img{
+	width: 100%;
+	height: 520px;
+    object-fit: cover;
+}
+.team-content{
+	background-color: #004623;
+	padding: 20px 30px;
+	position: absolute;
+	bottom: -200px;
+	transition: 0.5s;
+	left: 0px;
+    text-align: center;
+    margin: auto;
+	color: #fff;
+	width: 100%;
+	opacity: 0;
+}
+.team-div-main:hover .team-content{
+	bottom: 20px;
+	opacity: 1;
+
+}
+.team-content-social ul{
+	list-style: none;
+}
+.team-content-social ul li a:hover {
+	background-color: #000;
+	color: #fff;
+}
+.team-content-social ul li a{
+	display: block;
+	margin-right: 20px;
+	padding: 8px 12px;
+	background-color: #fff;
+	color: #000;
+	border-radius: 100%;
+    transition: 0.5s;
+}
+.pera p{
+    font-size: 17px;
+    margin: 0px;
+}
+.pera p span{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+.foot-social {
+    background: #fff;
+    width: 40%;
+    max-width: 100%;
+    float: left;
+    margin: 0 30%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.foot-social ul{
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-social ul li{
+    padding-top: 15px;
+}
+.foot-social ul li a{
+    font-size: 25px;
+    padding: 0px 18px 0px;
+    color: #000;
+}
+.foot-social ul li a:hover{
+    color: #588ed7;
+}
+
+.bg-9{
+    background: #065e3e;
+}
+.logo-la p{
+    color: #Fff;
+    width: 87%;
+    font-size: 18px;
+    padding-left: 2em;
+}
+.henok{
+    margin-bottom: 10px;
+    color: #cdd9f4;
+}
+.UL-Henok{
+    padding: 0px;
+    margin: 0px;
+}
+.UL-Henok li{
+    list-style: none;
+}
+.UL-Henok li a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 15px;
+}
+.UL-Henok li a:hover{
+    color: #588ed7;
+}
+.last-pera h3{
+    margin-bottom: 10px;
+    color: #cdd9f4;
+}
+.last-pera p{
+    color: #fff;
+    margin: 0px;
+}
+.last-pera a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.last-pera a span:hover{
+    color: #588ed7;
+}
+
+
+.bg-dot{
+    background: url(../Images/bg-dot.jpg);background-size: 100% 100%; height: 370px;
+}
+
+.feac h3{
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 45px;
+    font-weight: 600;
+    padding: 5px;
+    background: #adadad;
+}
+.gol-3{
+    position: relative;
+}
+.gol{
+    overflow: hidden;}
+.gol img{
+    border: solid 6px #adadad;
+    transition: 0.5s;
+}
+
+.gol-2 h3{
+    font-size: 21px;
+    background: rgb(3 114 59);
+    color: #d5e8fd;
+    text-align: center;
+    padding: 7px;
+    border: 5px solid #db9c27;
+    position: absolute;
+    width: 97%;
+    bottom: 10px;
+    right: 7px;
+}
+
+
+.gol img:hover{
+    transform: scale(1.5,1.5);
+}
+
+
+
+
+/*___________________ responsive______________ */
+/*___________________ responsive______________ */
+
+
+@media(max-width:1420px){
+    .container{
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .header {
+        width: 100%;
+    }
+    .bg-dark{
+        width: 100%;
+    }
+    .slider{
+        width: 100%;
+    }
+    .res iframe{
+        width: 520px;
+    }
+}
+
+@media(max-width:1276px){
+    .header {
+        width: 100%;
+    }
+    .bg-dark{
+        width: 100%;
+    }
+    .slider{
+        width: 100%;
+    }
+    .res iframe{
+        width: 500px;
+    }
+}
+@media(max-width:1226px){
+    .res iframe{
+        width: 470px;
+    }
+}
+@media(max-width:1200px){
+    .bg-2{
+        height: 1350px;
+    }
+    .henok h3{
+        width: 100%;
+        font-size: 25px;
+    }
+    .ter{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .pur{
+        width: 100%;
+    }
+    .pur-1{
+        width: 100%;
+    }
+    .COURSES-2 a{
+        left: 2.3em;
+    }
+    .ere-3{
+        padding-left: 90px !important;
+    }
+    .slide-2 img{
+        height: 296px;
+    }
+}
+    
+@media(max-width:1156px){
+    .res iframe{
+        width: 440px;
+    }
+}
+@media(max-width:1084px){
+    .res iframe{
+        width: 400px;
+    }
+}
+@media(max-width:1057px){
+    .lit{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .lit-1{
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+    .lit-2{
+        margin: auto;
+        width: 40%;
+    }
+    .lit-3{
+        margin: auto;
+        width: 50%;
+    }
+}
+@media(max-width:991px){
+    .navbar-toggler{
+        background: #fff;
+    }
+}
+@media(max-width:885px){
+    .bg-5{
+        height: 1050px !important;
+    }
+}
+@media(max-width:986px){
+    .bg-2{
+        height: 1400px;
+    }
+    .ifer{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .ifer-1{
+        width: 100%;
+    }
+
+    .res{
+        width: 100%;
+    }
+    .res iframe{
+        width: 100%;
+    }
+    .zoo{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .zoo-1{
+        width: 50%;
+    }
+    .bg-5{
+        height: 960px;
+    }
+    .ice{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .ice-1{
+        width: 100%;
+    }
+    .ice-2{
+        padding-top: 17px;
+        width: 50%;
+    }
+}
+
+@media(max-width:768px){
+    .bg-dot{
+        height: 1120px !important;
+    }
+    .ure{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .gol-3{
+        width: 100%;
+    }
+    .gol img{
+        width: 100%;
+    }
+    .COURSES-2 a{
+        left: 1.5em;
+    }
+    .reen{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .reen-1{
+        width: 100%;
+    }
+}
+@media(max-width:767px){
+    .header{
+        display: none;
+    }
+    .bg-2{
+        height: 1858px !important;
+    }
+    .slide-2 img {
+        height: 385px;
+    }    
+    .foot-social {
+        width: 62%;
+    }
+    .bg-dot {
+        height: 919px !important;
+    }
+}
+@media(max-width:551px){
+    .zoo-1{
+        width: 100%;
+    }
+    .bg-2 {
+        height: 1959px !important;
+    }
+    .bg-dot {
+        height: 835px !important;
+    }
+}
+@media(max-width:525px){
+    .bg-dark{
+        width: 100%;
+    }
+    .slider{
+        width: 100%;
+    }
+    body{
+        width: 100% !important;
+    }
+    .res iframe{
+        width: 440px;
+    }
+    .logo-la img{
+        width: 60% !important;
+    }
+    .ool{
+        width: 98%;
+    }
+    .ool h4{
+        width: 98%;
+    }
+    .navbar-brand img{
+        width: 64%;
+    }
+    /* .mer{
+        width: 90%;
+        padding: 0px;
+    }
+    .bg-danger-subtle{
+        width: 94.5%;
+    }
+    .bg-5{
+        width: 94.5% !important;
+        height: 1150px !important;
+    }
+    .bg-dot{
+        width: 94.5%;
+    }
+    .bg-2{
+        width: 94.5%;
+    } */
+    .COURSES-2 a {
+        left: 0.8em;
+    }
+}
+
+
+@media(max-width:451px){
+    body{
+        width: 100%;
+    }
+    .ool{
+        width: 98%;
+    }
+    .ool h4{
+        width: 98%;
+    }
+    .bg-5 {
+        height: 1789px !important;
+    }
+    .ice-2{
+        width: 100%;
+    }
+    .bg-dot{
+        height: 715px !important;
+    }
+    .wel h2 {
+        font-size: 45px;
+    }
+    .gellry h2 {
+        font-size: 45px;
+    }
+    .logo-la p {
+        width: 99%;
+        font-size: 14px;
+    }
+    .res iframe{
+        width: 400px;
+    }
+}
+@media(max-width:426px){
+    .navbar-brand img {
+        width: 84% !important;
+    }
+    .bg-5 {
+        height: 1894px !important;
+    }
+    .ure{
+        margin: auto;
+    }
+    .gol-2 h3{
+        width: 99%;
+        right: 0px;
+    }
+    .gol img {
+        margin-top: 12px;
+    }
+    .COURSES-2 a{
+        left: 0.6em;
+    }
+    .ere-3 {
+        padding-left: 61px !important;
+    }
+}
+@media(max-width:409px){
+    .bg-2 {
+        height: 2006px !important;
+    }
+    .res iframe{
+        width: 380px;
+    }
+    .wel h2 {
+        font-size: 40px;
+    }
+    .gellry h2 {
+        font-size: 40px;
+    }
+    .bg-5 {
+        height: 1930px !important;
+    }
+    .lit-2 {
+        width: 87%;
+    }
+    .lit-3{
+        width: 80%;
+    }
+    .foot-social {
+        background: none;
+        width: 32%;
+        float: left;
+    }
+    .foot-social ul li a{
+        color: #fff;
+    }
+    .logo-la img {
+        width: 91% !important;
+    }
+    .lit{
+        padding: 0px;
+    }
+    .bg-dot {
+        height: 678px !important;
+    }
+}
+@media(max-width:391px){
+    .res iframe{
+        width: 350px;
+    }
+}
+@media(max-width:376px){
+    .res iframe{
+        width: 100%;
+        height: 250px;
+    }
+}
+@media(max-width:321px){
+    .ool h4 {
+        font-size: 18px !important;
+    }
+    .pera{
+        margin: auto;
+    }
+    .pera p {
+        text-align: center;
+    }
+    .pera p span{
+        font-size: 15px !important;
+    }
+    .gellry h2 {
+        font-size: 30px;
+    }
+    .wel h2 {
+        font-size: 30px;
+    }
+    .bg-5 {
+        height: 2156px !important;
+    }
+    
+    .gol-2 h3 {
+        font-size: 14px;
+        padding: 5px;
+    }    
+    .bg-dot {
+        height: 559px !important;
+    }
+    .COURSES-2 a {
+        font-size: 139px;
+        top: 40px;
+    }
+    .COURSES img {
+        height: 287px;
+    }
+    .ere-3 {
+        padding-left: 17px !important;
+    }
+    .COURSES img{
+        display: none;
+    }
+    .bg-2 {
+        height: 1381px !important;
+    }
+}
